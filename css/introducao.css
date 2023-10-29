@@ -1,0 +1,72 @@
+.introducao{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.introducao h1{
+  font-size: 4rem;
+  position: relative;
+}
+
+.ola {
+  font-size: 2rem;
+  color: #b8b8b8;
+  font-weight: bold;
+}
+ .desenvolvedor{
+  font-size: 2rem;
+  color: #b8b8b8;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+ }
+
+ .introducao h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/Group\ 2.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -50px;
+  z-index: -1;
+}
+
+@media (max-width: 1050px){
+  .introducao h1{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px){
+  .introducao{
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .introducao h1{
+    font-size: 2rem;
+  }
+  .introducao h1::before{
+    display: none;
+  }
+  .ola{
+    font-size: 1.4rem;
+  }
+  .desenvolvedor{
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 460px){
+  .introducao img{
+    display: none;
+  }
+  .introducao{
+    grid-template-columns: 1fr;
+  }
+}

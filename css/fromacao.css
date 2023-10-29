@@ -1,0 +1,111 @@
+.formacao-container {
+  max-width: 1200px;
+  padding: 140px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.formacao {
+  background-color: #09031b;
+}
+
+.formacao .subtitulo {
+  font-family: "playfair display";
+  color: #202124;
+  max-width: 9ch;
+}
+
+.cursos-html {
+  font-size: 1.125rem;
+  line-height: 1, 4rem;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.cursos-html::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  background: linear-gradient(#755cbf, #1b0d45);
+  position: absolute;
+  left: -10px;
+  top: 5px;
+}
+
+.txt {
+  color: #666;
+  font-size: 1rem;
+  margin-left: 10px;
+  position: absolute;
+  left: 185px;
+}
+
+.txt2 {
+  color: #666;
+  font-size: 1rem;
+  margin-left: 10px;
+  position: absolute;
+  left: 205px;
+}
+
+.txt3 {
+  color: #666;
+  font-size: 1rem;
+  margin-left: 10px;
+  position: absolute;
+  left: 80px;
+}
+
+.txt4 {
+  color: #666;
+  font-size: 1rem;
+  margin-left: 10px;
+  position: absolute;
+  left: 230px;
+}
+
+.hora {
+  color: #666;
+  font-size: 1rem;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    padding: 50px 20px;
+    gap: 50px;
+  }
+
+  .subtitulo {
+    font-size: 4rem;
+  }
+
+  .cursos-html {
+    font-size: 1rem;
+  }
+
+  .txt {
+    left: 160px;
+  }
+
+  .txt2 {
+    left: 175px;
+  }
+
+  .txt3 {
+    left: 70px;
+  }
+
+  .txt4 {
+    left: 200px;
+  }
+}
