@@ -110,7 +110,7 @@
   .sobre-titulo::before {
     content: "";
     display: block;
-    width: 400px;
+    width: 350px;
     height: 5px;
     background-color: #8000ff;
     position: absolute;
