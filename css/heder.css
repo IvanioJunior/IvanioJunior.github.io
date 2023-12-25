@@ -25,8 +25,14 @@
 
 @media (max-width: 800px) {
   .header{
-    flex-direction:column;
+    flex-direction: column;
     gap: 40px;
-    padding: 20px;
+    padding: 40px 20px;
+    border-radius: 4px;
+  }
+  .header a {
+    background-color: #292A2C;
+    border-radius: 4px;
+    font-size: 5;
   }
 }

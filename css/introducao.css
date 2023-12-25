@@ -13,12 +13,12 @@
   position: relative;
 }
 
-.ola {
+.introducao p {
   font-size: 2rem;
   color: #b8b8b8;
   font-weight: bold;
 }
- .desenvolvedor{
+ .introducao samp{
   font-size: 2rem;
   color: #b8b8b8;
   font-weight: bold;
@@ -54,18 +54,18 @@
   .introducao h1::before{
     display: none;
   }
-  .ola{
+  .introducao p{
     font-size: 1.4rem;
   }
-  .desenvolvedor{
+  .introducao samp{
     font-size: 1.3rem;
   }
 }
 
 @media (max-width: 460px){
-  .introducao img{
+  .introducao img {
     display: none;
-  }
+  }  
   .introducao{
     grid-template-columns: 1fr;
   }

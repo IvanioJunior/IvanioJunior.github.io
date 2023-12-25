@@ -17,6 +17,10 @@
   max-width: 9ch;
 }
 
+.cursos-lista {
+  font-family:"roboto";
+}
+
 .cursos-html {
   font-size: 1.125rem;
   line-height: 1, 4rem;
@@ -56,7 +60,7 @@
   font-size: 1rem;
   margin-left: 10px;
   position: absolute;
-  left: 80px;
+  left: 180px;
 }
 
 .txt4 {
@@ -102,7 +106,7 @@
   }
 
   .txt3 {
-    left: 70px;
+    left: 140px;
   }
 
   .txt4 {
