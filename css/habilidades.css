@@ -1,0 +1,34 @@
+.habilidades {
+  grid-column: 2;
+}
+
+.habilidades h1 {
+  padding-top: 50px;
+}
+
+.aplicativos {
+  padding-top: 75px;
+  padding-left: 10px;
+  display: flex;
+  gap: 60px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.figma div,
+.html div,
+.css div,
+.js div{
+  display: grid;
+  gap: 10px;
+  border: 2px solid var(--cor-9);
+  padding: 30px;
+  border-radius: 60px;
+}
+
+.figma div:hover,
+.html div:hover,
+.css div:hover,
+.js div:hover {
+  border-color: var(--cor-p2);
+}

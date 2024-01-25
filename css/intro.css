@@ -1,0 +1,14 @@
+.introducao h1 {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.introducao p {
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+
+.introducao {
+  grid-column: 2;
+}
+

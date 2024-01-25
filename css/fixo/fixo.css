@@ -1,0 +1,56 @@
+.fixo {
+  position: fixed;
+  top: 5px;
+  left: 20px;
+  display: grid;
+  width: 430px;
+  border: 1px solid var(--cor-8);
+  border-radius: 10px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.fixo-logo {
+  display: flex;
+  gap: 150px;
+  text-align: end;
+  padding-top: 10px;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.fixo-contato h2 {
+  padding-top: 20px;
+}
+
+.fixo-contato li {
+  padding-top: 5px;
+}
+
+.fixo-rede {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.fixo-rede li {
+  display: flex;
+  gap: 20px;
+}
+
+.fixo-rede a {
+  border: 2px solid var(--cor-9);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 800px) {
+  .fixo{
+    position: relative;
+    left: 0;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

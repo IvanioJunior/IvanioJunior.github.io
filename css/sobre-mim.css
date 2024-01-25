@@ -1,0 +1,16 @@
+.sobre {
+  grid-column: 2;
+  padding-top: 20px;
+}
+
+.sobre p {
+  padding-top: 20px;
+  padding-bottom: 120px;
+  max-width: 50ch;
+}
+
+@media (max-width: 800px) {
+  .sobre p {
+    max-width: ch;
+  }
+}

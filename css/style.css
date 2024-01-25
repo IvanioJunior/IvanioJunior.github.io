@@ -1,6 +1,14 @@
-@import "./global.css";
-@import "./heder.css";
-@import "./introducao.css";
-@import "./sobre_mim.css";
-@import "./fromacao.css";
-@import "./footer.css";
+@import "../css/global/global.css";
+@import "../css/fixo/fixo.css";
+@import "../css/intro.css";
+@import "../css/sobre-mim.css";
+@import "../css/formacao.css";
+@import "../css/habilidades.css";
+@import "../css/Menu.css";
+
+
+/* Utilitarios */
+@import "../css/utilitarioss/cor.css";
+@import "../css/utilitarioss/tipografia.css";
+@import "../css/global/botao.css";
+@import "../css/utilitarioss/decoracao.css";
