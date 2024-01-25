@@ -64,3 +64,10 @@
     font-size: 1.1rem;
   }
 }
+
+
+@media (max-width: 600px) {
+  .font-1-xxl {
+    font-size: 0rem;
+  }
+}

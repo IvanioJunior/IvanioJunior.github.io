@@ -23,11 +23,11 @@
 }
 
 @media (max-width: 600px) {
-  .formacoes h1,
-  .formacoes h1 samp {
-    font-size: 1rem;
+  .introducao h1,
+  .introducao samp{
+    font-size: 2rem;
   }
-  .formacoes {
-    padding-left: 20px;
+  .introducao p {
+    font-size: 1rem;
   }
 }

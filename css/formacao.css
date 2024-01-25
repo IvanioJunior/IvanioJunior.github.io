@@ -81,15 +81,28 @@
   .formacoes h1 samp {
     font-size: 2.9rem;
   }
-
 }
 
 @media (max-width: 600px) {
   .formacoes h1,
   .formacoes h1 samp {
-    font-size: 1rem;
+    font-size: 2rem;
   }
-  .formacoes {
+  .formacoes h2 {
+    padding-left: 10px;
+    font-size: 1.5rem;
+  }
+  .formacoes h3 {
+    font-size: 1.2rem;
+  }
+  .formacoes ul {
+    padding-left: 20px;
+  }
+  .curso h3 {
+    font-size: 1, 5rem;
+    padding-left: 20px;
+  }
+  .curso samp {
     padding-left: 20px;
   }
 }
