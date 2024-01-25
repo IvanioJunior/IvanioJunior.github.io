@@ -32,3 +32,10 @@
 .js div:hover {
   border-color: var(--cor-p2);
 }
+
+@media (max-width: 800px) {
+  .habilidades h1,
+  .habilidades h1 samp {
+    font-size: 2.9rem;
+  }
+}

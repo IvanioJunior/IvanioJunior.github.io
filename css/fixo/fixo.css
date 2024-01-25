@@ -48,8 +48,11 @@
 @media (max-width: 800px) {
   .fixo{
     position: relative;
-    left: 0;
+    top: 20px;
+    left: 130px;
+    margin-bottom: 60px;
   }
+
   .grid {
     grid-template-columns: 1fr;
   }

@@ -21,9 +21,9 @@
 } 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .navegacao {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     grid-column: 2;
     top: 0;
     padding: 10px;

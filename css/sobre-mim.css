@@ -10,7 +10,10 @@
 }
 
 @media (max-width: 800px) {
+  .sobre h1 {
+    font-size: 2.9rem;
+  }
   .sobre p {
-    max-width: ch;
+    font-size: 1.5rem;
   }
 }

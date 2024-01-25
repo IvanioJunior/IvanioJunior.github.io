@@ -12,3 +12,22 @@
   grid-column: 2;
 }
 
+@media (max-width: 800px) {
+  .introducao h1,
+  .introducao samp{
+    font-size: 2.9rem;
+  }
+  .introducao p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .formacoes h1,
+  .formacoes h1 samp {
+    font-size: 1rem;
+  }
+  .formacoes {
+    padding-left: 20px;
+  }
+}
