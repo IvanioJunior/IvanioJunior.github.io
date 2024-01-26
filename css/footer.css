@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 60px;
+  grid-column: 2;
+}
+
+.footer p,
+.footer ul {
+  padding-left: 30px;
+  padding-top: 10px;
+  
+}
+
+.footer ul {
+  padding-bottom: 60px;
+}
+
+@media (min-width: 800px) {
+  .footer {
+    display: none;
+  }
+}
