@@ -15,3 +15,6 @@ function eventosCurso(curso) {
 }
 
 curso.forEach(eventosCurso);
+
+// animacao // 
+new SimpleAnime()
