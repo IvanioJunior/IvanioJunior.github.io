@@ -1,9 +1,0 @@
-.deco {
-  display: flex;
-  grid-column: 2;
-  gap: 10px;
-  border: 1px solid var(--cor-8);
-  padding: 5px 10px;
-  border-radius: 50px;
-  margin-top: 20px;
-}

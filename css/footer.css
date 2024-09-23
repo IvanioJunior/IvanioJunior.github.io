@@ -1,27 +1,7 @@
-.footer {
-  padding-top: 60px;
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
   grid-column: 2;
-}
-
-.footer p,
-.footer ul {
-  padding-left: 30px;
-  padding-top: 10px;
-  
-}
-
-.footer ul {
-  padding-bottom: 60px;
-}
-
-@media (min-width: 800px) {
-  .footer {
-    display: none;
-  }
-}
-
-@media (max-width: 800px) {
-  .footer {
-    display: block;
-  }
+  padding: 100px;
 }

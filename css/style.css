@@ -1,17 +1,11 @@
-@import "../css/global/global.css";
-@import "../css/fixo/fixo.css";
-@import "../css/intro.css";
-@import "../css/sobre-mim.css";
-@import "../css/formacao.css";
-@import "../css/habilidades.css";
-@import "../css/Menu.css";
-@import "../css/footer.css";
-
-
-
-/* Utilitarios */
-@import "../css/utilitarioss/cor.css";
-@import "../css/utilitarioss/tipografia.css";
-@import "../css/global/botao.css";
-@import "../css/utilitarioss/decoracao.css";
-@import "../css/utilitarioss/animacao.css";
+@import 'navegacao.css';
+@import 'utilitarios/cores.css ';
+@import 'utilitarios/tipografia.css';
+@import 'global/global.css';
+@import 'utilitarios/componetes.css';
+@import 'fixed.css';
+@import 'introducao.css';
+@import 'sobre-mim.css';
+@import 'foamacao.css';
+@import 'habilidades.css';
+@import 'footer.css';

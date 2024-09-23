@@ -1,0 +1,15 @@
+.navegacao {
+  display: grid;
+  position: fixed;
+  grid-column: 3;
+  justify-content: center;
+}
+
+.navegacao li {
+  padding: 15px;
+}
+
+.navegacao ul {
+  border: 2px solid var(--cor-8);
+  border-radius: 50px;
+}

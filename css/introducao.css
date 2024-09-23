@@ -1,0 +1,11 @@
+.introducao {
+  grid-column: 2;
+}
+
+.introducao h1{
+  padding-bottom: 10px;
+}
+
+.introducao p {
+  padding-bottom: 90px;
+}

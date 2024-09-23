@@ -1,19 +1,9 @@
-.sobre {
+.sobre-mim {
   grid-column: 2;
-  padding-top: 20px;
 }
 
-.sobre p {
-  padding-top: 20px;
-  padding-bottom: 120px;
-  max-width: 50ch;
-}
-
-@media (max-width: 800px) {
-  .sobre h1 {
-    font-size: 2rem;
-  }
-  .sobre p {
-    font-size: 1rem;
-  }
+.sobre-mim p {
+  max-width: 65ch;
+  padding-bottom: 90px;
+  padding-top: 15px;
 }

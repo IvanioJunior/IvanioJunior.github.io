@@ -1,0 +1,76 @@
+.fixed {
+  display: grid;
+  position: fixed;
+  margin: 5px 20px 0 10px;
+  top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid 1px var(--cor-8);
+  border-radius: 20px;
+  place-items: center;
+}
+
+.fixed-nome {
+  display: flex;
+  gap: 120px;
+  text-align: end;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.fixed-contato {
+  text-align: center;
+}
+
+.fixed-contato h2 {
+  padding-top: 15px;
+}
+
+.fixed-contato ul {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.fixed-redeSocial ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.fixed-redeSocial li {
+  display: inline-block;
+  padding: 10px;
+  border: solid 2px var(--cor-8);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.fixed-redeSocial li:hover {
+  animation: aumentar 0.3s ease forwards;
+  border-color: var(--cor-p1);
+}
+
+.botao {
+  margin-bottom: 15px;
+}
+
+.fixed-nome h1 {
+  font: 700 2.5rem/1.25 "PlayFair Display", serif;
+}
+
+@media (max-width: 800px) {
+  .fixed-nome {
+    gap: 100px;
+  }
+  .fixed-nome h1 {
+    font-size: 2.23rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .fixed {
+    position: relative;
+  }
+}
