@@ -58,10 +58,6 @@
   padding-bottom: 20px;
 }
 
-.formacao ul  {
+.js .formacao ul  {
   display: none;
-}
-
-.formacao .ativo {
-  display: block;
 }
