@@ -19,7 +19,7 @@ initAccordion();
 function initAnimacaoScroll() {
   const sections = document.querySelectorAll(".js-scroll");
   if (sections.length) {
-    const windowMetade = window.innerHeight * 0.7;
+    const windowMetade = window.innerHeight * 0.8;
 
     function animaScroll() {
       sections.forEach((section) => {
