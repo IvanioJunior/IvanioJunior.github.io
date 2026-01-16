@@ -1,0 +1,115 @@
+:root {
+  --color-0: #ffffff;
+  --color-1: #f7f7f7;
+  --color-2: #ededed;
+  --color-3: #dedede;
+  --color-4: #cccccc;
+  --color-5: #b2b2b2;
+  --color-6: #9c9c9c;
+  --color-7: #717171;
+  --color-8: #595959;
+  --color-9: #404040;
+  --color-10: #2e2e2e;
+  --color-11: #111111;
+  --color-12: #000000;
+  --color-r: #6600ff;
+  --color-rc: #bb00ff;
+  --color-rb: #eee4ff;
+  --color-rr: #af98d5;
+  --color-ac: #ffdd00;
+  --color-y: #ffa000;
+  --color-l: #ff3300;
+  --color-a: #11c3ec;
+  --color-ad: #112fef;
+}
+
+.color-0 {
+  color: var(--color-0);
+}
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-3 {
+  color: var(--color-3);
+}
+
+.color-4 {
+  color: var(--color-4);
+}
+
+.color-5 {
+  color: var(--color-5);
+}
+
+.color-6 {
+  color: var(--color-6);
+}
+
+.color-7 {
+  color: var(--color-7);
+}
+
+.color-8 {
+  color: var(--color-8);
+}
+
+.color-9 {
+  color: var(--color-9);
+}
+
+.color-10 {
+  color: var(--color-10);
+}
+
+.color-11 {
+  color: var(--color-11);
+}
+
+.color-12 {
+  color: var(--color-12);
+}
+
+.color-r {
+  color: var(--color-r);
+}
+
+.lgrd {
+  background: linear-gradient(to bottom, var(--color-rc), var(--color-r));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lgrc {
+  background: linear-gradient(to bottom, var(--color-rb), var(--color-rr));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lgl {
+  background: linear-gradient(to bottom, var(--color-ac), var(--color-l));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lgy {
+  background: linear-gradient(to bottom, var(--color-ac), var(--color-y));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lga {
+  background: linear-gradient(to bottom, var(--color-a), var(--color-ad));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
