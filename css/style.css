@@ -1,3 +1,5 @@
 @import "global/global.css";
 @import "utilities/color.css";
 @import "utilities/tipografia.css";
+@import "utilities/componetes.css";
+@import "header.css";
