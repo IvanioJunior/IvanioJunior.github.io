@@ -1,0 +1,38 @@
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  padding-bottom: 5px;
+  overflow-wrap: anywhere;
+}
+
+.hero div {
+  display: flex;
+  gap: 20px;
+  padding-top: 32px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: -15px;
+  right: 5%;
+  background: url("../img/svg/chess-knight.svg") no-repeat center;
+  opacity: 0.3;
+}
+
+@media (max-width: 800px) {
+  .hero div {
+    padding-top: 16px;
+  }
+  .hero::before {
+    left: 50%;
+    right: auto;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    opacity: 0.12;
+  }
+}

@@ -21,6 +21,11 @@
   --color-l: #ff3300;
   --color-a: #11c3ec;
   --color-ad: #112fef;
+  --color-lgrd: linear-gradient(to bottom, var(--color-rc), var(--color-r));
+  --color-lgrc: linear-gradient(to bottom, var(--color-rb), var(--color-rr));
+  --color-lgl: linear-gradient(to bottom, var(--color-ac), var(--color-l));
+  --color-lgy: linear-gradient(to bottom, var(--color-ac), var(--color-y));
+  --color-lgA: linear-gradient(to bottom, var(--color-a), var(--color-ad));
 }
 
 .color-0 {
@@ -80,35 +85,35 @@
 }
 
 .lgrd {
-  background: linear-gradient(to bottom, var(--color-rc), var(--color-r));
+  background: var(--color-lgrd);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .lgrc {
-  background: linear-gradient(to bottom, var(--color-rb), var(--color-rr));
+  background: var(--color-lgrc);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .lgl {
-  background: linear-gradient(to bottom, var(--color-ac), var(--color-l));
+  background: var(--color-lgl);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .lgy {
-  background: linear-gradient(to bottom, var(--color-ac), var(--color-y));
+  background: var(--color-lgy);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
 .lga {
-  background: linear-gradient(to bottom, var(--color-a), var(--color-ad));
+  background: var(--color-lga);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
