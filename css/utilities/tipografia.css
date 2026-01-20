@@ -28,6 +28,12 @@
     sans-serif;
 }
 
+.font-2-d {
+  font:
+    400 1.25rem/1.5 "Roboto Condensed",
+    sans-serif;
+}
+
 .font-2-p {
   font:
     600 1.125rem/1.5 "Roboto Condensed",
