@@ -6,3 +6,93 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 12px 16px;
+  background: var(--color-lgrd);
+  border: 1px solid var(--color-r);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #070f1e;
+  border-radius: 10px;
+  transform: scaleX(0);
+  z-index: -1;
+}
+
+.btn:not(:hover)::before {
+  animation: closeZoom 0.4s ease forwards;
+}
+
+.btn:hover::before {
+  animation: openZoom 0.4s ease forwards;
+}
+
+.btn-s {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--color-r);
+}
+
+.btn-s:hover {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 4px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-s:not(:hover) {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* animations */
+
+@keyframes closeZoom {
+  from {
+    transform: scalex(1);
+    border-radius: 0;
+  }
+  to {
+    transform: scalex(0);
+    border-radius: 50%;
+  }
+}
+
+@keyframes openZoom {
+  from {
+    transform: scalex(0);
+    border-radius: 50%;
+  }
+  to {
+    transform: scalex(1);
+    border-radius: 0px;
+  }
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes down {
+  from {
+    transform: translateY(-10px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
