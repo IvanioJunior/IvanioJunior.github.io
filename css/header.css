@@ -1,5 +1,7 @@
 .header-bg {
   position: sticky;
+  top: 0;
+  z-index: 100;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-bottom: 90px;
@@ -14,13 +16,27 @@
   align-items: center;
 }
 
+.header li {
+  position: relative;
+}
+
+.header li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: var(--color-1);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header li a:hover::after {
+  width: 100%;
+}
+
 .header ul {
   display: flex;
   gap: 40px;
-}
-
-.header a {
-  padding: 16px;
 }
 
 @media (max-width: 800px) {
@@ -29,5 +45,8 @@
   }
   .header ul {
     gap: 20px;
+  }
+  .header a {
+    padding: 16px;
   }
 }

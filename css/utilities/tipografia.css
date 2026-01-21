@@ -65,4 +65,9 @@
   .font-2-p {
     font-size: 1rem;
   }
+  .font-2-d {
+    font:
+      400 1.123rem/1.5 "Roboto Condensed",
+      sans-serif;
+  }
 }
