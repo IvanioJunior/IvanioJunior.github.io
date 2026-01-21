@@ -7,6 +7,22 @@
   margin-right: auto;
 }
 
+.dec::before {
+  content: "";
+  width: 30px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background: var(--color-lgy);
+}
+
+.dec {
+  display: flex;
+  align-items: center;
+}
+
+/* buttons */
+
 .btn {
   display: inline-block;
   position: relative;
