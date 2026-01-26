@@ -1,0 +1,57 @@
+.curses {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  gap: 60px;
+}
+
+.course a {
+  display: block;
+  height: 100%;
+  background-color: var(--color-10);
+}
+
+.course {
+  margin-top: 60px;
+  border-radius: 5px;
+  padding: 0 16px 16px 16px;
+  background: var(--color-10);
+}
+
+.curse-title {
+  text-align: center;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35%;
+  background-color: var(--color-12);
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.curse-guide {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px 0;
+  background: transparent;
+}
+
+.curse-guide span {
+  background: transparent;
+}
+
+.center {
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .curses {
+    grid-template-columns: 1fr;
+  }
+  .dec-code {
+    display: none;
+  }
+}
