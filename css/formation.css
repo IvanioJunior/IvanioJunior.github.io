@@ -47,6 +47,78 @@
   text-align: center;
 }
 
+/* decorations */
+
+.dec-l::before {
+  content: "";
+  width: 20px;
+  margin: 0 10px;
+  height: 3px;
+  border-radius: 50px;
+  background: var(--color-lgl);
+}
+
+.dec-l {
+  display: flex;
+  align-items: center;
+}
+
+.dec-y::before {
+  content: "";
+  width: 20px;
+  margin: 0 10px;
+  height: 4px;
+  border-radius: 50px;
+  background: var(--color-lgy);
+}
+
+.dec-y {
+  display: flex;
+  align-items: center;
+}
+
+.dec-a::before {
+  content: "";
+  width: 20px;
+  margin: 0 10px;
+  height: 3px;
+  border-radius: 50px;
+  background: var(--color-lga);
+}
+
+.dec-a {
+  display: flex;
+  align-items: center;
+}
+
+.dec-a::before {
+  content: "";
+  width: 20px;
+  margin: 0 10px;
+  height: 3px;
+  border-radius: 50px;
+  background: var(--color-lga);
+}
+
+.dec-a {
+  display: flex;
+  align-items: center;
+}
+
+.dec-r::before {
+  content: "";
+  width: 20px;
+  margin: 0 10px;
+  height: 3px;
+  border-radius: 50px;
+  background: var(--color-lgrd);
+}
+
+.dec-r {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 700px) {
   .curses {
     grid-template-columns: 1fr;
