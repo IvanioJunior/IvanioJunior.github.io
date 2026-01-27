@@ -25,11 +25,12 @@
   --color-lgrc: linear-gradient(to bottom, var(--color-rb), var(--color-rr));
   --color-lgl: linear-gradient(to bottom, var(--color-ac), var(--color-l));
   --color-lgy: linear-gradient(to bottom, var(--color-ac), var(--color-y));
-  --color-lgA: linear-gradient(to bottom, var(--color-a), var(--color-ad));
+  --color-lga: linear-gradient(to bottom, var(--color-a), var(--color-ad));
 }
 
 .color-0 {
   color: var(--color-0);
+  background: transparent;
 }
 
 .color-1 {
@@ -82,6 +83,7 @@
 
 .color-r {
   color: var(--color-r);
+  background: transparent;
 }
 
 .lgrd {
