@@ -16,6 +16,12 @@
     serif;
 }
 
+.font-1-l {
+  font:
+    500 1.4rem/1.5 "Alegrey",
+    serif;
+}
+
 .font-2-t {
   font:
     600 3rem/1.5 "Roboto Condensed",
